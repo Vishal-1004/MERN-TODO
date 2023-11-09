@@ -1,0 +1,30 @@
+.todo-card {
+  border: 1px solid black;
+}
+
+.todo-card p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.todo-cards-icons {
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.card-icon-head {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.card-icon-head:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.edit {
+  color: green;
+}
+
+.del {
+  color: red;
+}
